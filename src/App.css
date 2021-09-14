@@ -502,11 +502,15 @@ body {
 }
 
 .Form {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+  width: 80%;
   padding: 1rem;
   border-radius: 16px;
+}
+
+.Form-Body {
+  display: flex;
+  flex-direction: column;
+  padding: .4rem;
 }
 
 .Contact-Title {
@@ -517,7 +521,6 @@ body {
 input[type="text"],
 input[type="email"],
 textarea {
-  width: 100%s;
   margin-top: 6px;
   margin-bottom: 16px;
   padding: 12px;
@@ -534,10 +537,10 @@ textarea:focus {
 }
 
 .Btn-Form {
-  font-size: 1.2rem;
   width: 100%;
+  font-size: 1.2rem;
   text-align: center;
-  border: none;
+  border: var(--color-black);
   margin: .1rem .3rem;
   padding: .4rem .6rem;
   border-radius: 5px;
