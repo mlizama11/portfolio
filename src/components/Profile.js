@@ -28,7 +28,6 @@ export default function Profile() {
           </p>
           <div data-aos="zoom-in" className="Buttons-Container">
             <a className="Btn Btn-Black" href={Resume} target="_blank" rel="noreferrer">DOWNLOAD CV</a>
-            <a href="/portfolio/contact" className="Btn Btn-Grey" rel="noreferrer"><span>HIRE ME</span></a>
           </div>
         </div>
       </div>
