@@ -20,6 +20,7 @@ const App = () => {
           <Route path='/education' component={Education} />
           <Route path='/projects' component={Projects} />
           <Route path='/contact' component={Contact} />
+          <Redirect to="/portfolio" />
         </Switch>
       </Layout>
     </Router>
