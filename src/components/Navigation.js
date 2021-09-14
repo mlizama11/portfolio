@@ -14,7 +14,7 @@ const Navigation = () => {
       </div>
       <div className={`Navbar-Links ${state ? 'active' : ''}`}>
         <ul>
-          <li><NavLink exact={true} to="/about" href="/about">About</NavLink></li>
+          <li><NavLink activeClassName="is-active" exact={true} to="/about" href="/about">About</NavLink></li>
           <li><NavLink exact={true} to="/education" href="/education">Education</NavLink></li>
           <li><NavLink exact={true} to="/projects" href="/projects">Projects</NavLink></li>
           <li><NavLink exact={true} to="/contact" href="/contact">Contact</NavLink></li>
