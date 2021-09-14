@@ -477,7 +477,7 @@ body {
 
 /* Contact */
 .Contact {
-  max-width: 900px;
+  max-width: 700px;
   width: 100%;
   height: 100%;
   display: flex;
@@ -490,7 +490,6 @@ body {
 .Contact-Container {
   min-width: 250px;
   width: 100%;
-  padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -502,15 +501,21 @@ body {
 }
 
 .Form {
-  width: 80%;
+  width: 100%;
   padding: 1rem;
   border-radius: 16px;
 }
 
 .Form-Body {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  padding: .4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.Form-Fills {
+  width: 94%;
 }
 
 .Contact-Title {
@@ -518,9 +523,15 @@ body {
   text-align: center;
 }
 
+label {
+  text-align: left;
+  margin-left: .3rem;
+}
+
 input[type="text"],
 input[type="email"],
 textarea {
+  width: 100%;
   margin-top: 6px;
   margin-bottom: 16px;
   padding: 12px;
@@ -532,12 +543,12 @@ textarea {
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  box-shadow: inset 0 0 0 2px #e5ae8cef;
+  box-shadow: inset 0 0 0 2px var(--color-accent-tint-blue-3);
   background-color: #fdf9f6ea;
 }
 
 .Btn-Form {
-  width: 100%;
+  width: 95%;
   font-size: 1.2rem;
   text-align: center;
   border: var(--color-black);
