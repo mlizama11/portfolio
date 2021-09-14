@@ -1,11 +1,12 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   const [state, setState] = useState(false);
 
   return (
     <nav className="Navbar">
-      <div className="Brand-Title" ><a href="/">Porfolio</a></div>
+      <div className="Brand-Title" ><NavLink exact={true} to="/about" href="/">Porfolio</NavLink></div>
       <div onClick={() => setState(!state)} className="Toggle-Button">
         <span className="Bar"></span>
         <span className="Bar"></span>
@@ -13,10 +14,10 @@ const Navigation = () => {
       </div>
       <div className={`Navbar-Links ${state ? 'active' : ''}`}>
         <ul>
-          <li><a href="/about">About</a></li>
-          <li><a href="/education">Education</a></li>
-          <li><a href="/projects">Projects</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><NavLink exact={true} to="/about" href="/about">About</NavLink></li>
+          <li><NavLink exact={true} to="/education" href="/education">Education</NavLink></li>
+          <li><NavLink exact={true} to="/projects" href="/projects">Projects</NavLink></li>
+          <li><NavLink exact={true} to="/contact" href="/contact">Contact</NavLink></li>
         </ul>
       </div>
     </nav>
