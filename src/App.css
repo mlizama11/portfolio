@@ -51,13 +51,13 @@ body {
 }
 
 .Btn-Black:hover {
-  background-color: var(--color-primary-red);
+  background-color: var(--color-primary-blue);
   color: var(--color-light);
   box-shadow: 5px 4px 3px 0px rgba(0, 0, 0, 0.75);
 }
 
 .Btn-Grey:hover {
-  background-color: var(--color-primary-blue);
+  background-color: var(--color-primary-red);
   color: var(--color-light);
   box-shadow: 5px 4px 3px 0px rgba(0, 0, 0, 0.75);
 }
