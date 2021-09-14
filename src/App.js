@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import './App.css';
 
 // Layout
@@ -15,7 +15,7 @@ const App = () => {
     <Router basename="/portfolio">
       <Layout>
         <Switch>
-          <Route path='/' component={About} exact />
+          <Route path='/portfolio' component={About} exact />
           <Route path='/about' component={About} />
           <Route path='/education' component={Education} />
           <Route path='/projects' component={Projects} />
