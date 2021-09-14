@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 
 // Layout
@@ -20,7 +20,6 @@ const App = () => {
           <Route path='/education' component={Education} />
           <Route path='/projects' component={Projects} />
           <Route path='/contact' component={Contact} />
-          <Redirect to="/" />
         </Switch>
       </Layout>
     </Router>
