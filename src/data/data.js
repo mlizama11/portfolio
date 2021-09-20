@@ -24,7 +24,7 @@ export const gitData = [
   {
     title: "BAM CAT eCommerce Store 2.0",
     image: bamcatfull,
-    description: "Fullstack React.js responsive website with Node.js, Express.js & MongoDB (MERN)",
+    description: "Fullstack React.js responsive website with Node.js, Express.js & MongoDB.",
     demo: "https://mlizama11.github.io/bamcatfullstack",
     code: "https://github.com/mlizama11/bamcatfullstack",
   },
@@ -42,13 +42,13 @@ export const independentData = [
   {
     title: "Emilia Prieto",
     image: emilia,
-    description: "Website created in 2018 about an important artist of Costa Rica in the 20th century.",
+    description: "Website created in 2018 with Bootstrap before DCI course.",
     website: "https://www.emiliaprieto.com",
   },
   {
     title: "Carlos Lizama Blog",
     image: carlos,
-    description: "A blog-style website created for my father Carlos Lizama, an expert in tourism policy.",
+    description: "A Wordpress blog-style website created in 2018 using plugins.",
     website: "https://www.carloslizama.com",
   },
 ];
