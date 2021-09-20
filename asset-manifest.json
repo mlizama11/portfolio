@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.875ecaff.chunk.css",
-    "main.js": "/portfolio/static/js/main.f395a5e1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f395a5e1.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.cb65af8b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cb65af8b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.bcd5af5a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.bcd5af5a.js.map",
     "static/css/2.281fcd7b.chunk.css": "/portfolio/static/css/2.281fcd7b.chunk.css",
@@ -16,6 +16,7 @@
     "static/media/boxicons.min.css": "/portfolio/static/media/boxicons.c324d2b5.eot",
     "static/media/sitioalpacas.887c7175.png": "/portfolio/static/media/sitioalpacas.887c7175.png",
     "static/media/sitiobamcat.fcf7f2b6.png": "/portfolio/static/media/sitiobamcat.fcf7f2b6.png",
+    "static/media/sitiobamcatfullstack.7d2ff3a8.png": "/portfolio/static/media/sitiobamcatfullstack.7d2ff3a8.png",
     "static/media/sitioburger.202e24b8.png": "/portfolio/static/media/sitioburger.202e24b8.png",
     "static/media/sitiocarloslizama.c4380e16.png": "/portfolio/static/media/sitiocarloslizama.c4380e16.png",
     "static/media/sitioemiliaprieto.fe1487f5.png": "/portfolio/static/media/sitioemiliaprieto.fe1487f5.png"
@@ -25,6 +26,6 @@
     "static/css/2.281fcd7b.chunk.css",
     "static/js/2.2edff681.chunk.js",
     "static/css/main.875ecaff.chunk.css",
-    "static/js/main.f395a5e1.chunk.js"
+    "static/js/main.cb65af8b.chunk.js"
   ]
 }
