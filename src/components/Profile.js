@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 import Resume from "../documents/Mauricio_Lizama_Resume.pdf";
 
 export default function Profile() {
@@ -28,6 +29,7 @@ export default function Profile() {
           </p>
           <div data-aos="zoom-in" className="Buttons-Container">
             <a className="Btn Btn-Black" href={Resume} target="_blank" rel="noreferrer">DOWNLOAD CV</a>
+            <Link className="Btn Btn-Grey" to="/contact">HIRE ME</Link>
           </div>
         </div>
       </div>
