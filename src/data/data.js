@@ -1,5 +1,6 @@
 import alpaca from "../images/sitioalpacas.png";
 import bamcat from "../images/sitiobamcat.png";
+import bamcatfull from "../images/sitiobamcatfullstack.png";
 import burger from "../images/sitioburger.png";
 import emilia from "../images/sitioemiliaprieto.png";
 import carlos from "../images/sitiocarloslizama.png";
@@ -16,9 +17,16 @@ export const gitData = [
   {
     title: "BAM CAT eCommerce Store 1.0",
     image: bamcat,
-    description: "A responsive eCommerce website created in REACT module.",
+    description: "A responsive website created in REACT module.",
     demo: "https://mlizama11.github.io/bam-cat-ecommerce",
     code: "https://github.com/mlizama11/bam-cat-ecommerce",
+  },
+  {
+    title: "BAM CAT eCommerce Store 2.0",
+    image: bamcatfull,
+    description: "Fullstack React.js responsive website with Node.js, Express.js & MongoDB (MERN)",
+    demo: "https://mlizama11.github.io/bamcatfullstack",
+    code: "https://github.com/mlizama11/bamcatfullstack",
   },
   {
     title: "Benny's Burger",
