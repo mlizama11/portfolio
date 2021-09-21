@@ -6,7 +6,7 @@ const Navigation = () => {
 
   return (
     <nav className="Navbar">
-      <div className="Brand-Title" ><NavLink exact={true} to="/" href="/">Porfolio</NavLink></div>
+      <div className="Brand-Title" ><NavLink exact={true} to="/">Porfolio</NavLink></div>
       <div onClick={() => setState(!state)} className="Toggle-Button">
         <span className="Bar"></span>
         <span className="Bar"></span>
@@ -14,10 +14,10 @@ const Navigation = () => {
       </div>
       <div className={`Navbar-Links ${state ? 'active' : ''}`}>
         <ul>
-          <li><NavLink exact={true} to="/about" href="/about">About</NavLink></li>
-          <li><NavLink exact={true} to="/education" href="/education">Education</NavLink></li>
-          <li><NavLink exact={true} to="/projects" href="/projects">Projects</NavLink></li>
-          <li><NavLink exact={true} to="/contact" href="/contact">Contact</NavLink></li>
+          <li><NavLink exact={true} to="/about">About</NavLink></li>
+          <li><NavLink exact={true} to="/education">Education</NavLink></li>
+          <li><NavLink exact={true} to="/projects">Projects</NavLink></li>
+          <li><NavLink exact={true} to="/contact">Contact</NavLink></li>
         </ul>
       </div>
     </nav>
