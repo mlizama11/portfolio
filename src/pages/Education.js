@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
-import Aos from "aos";
-import "aos/dist/aos.css";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import EducationCard from '../components/EducationCard';
+import { educationData } from '../data/data';
 
 export default function Education() {
 
@@ -16,33 +18,9 @@ export default function Education() {
         <div data-aos="zoom-in" className="Education-Title-Container">
           <h2 className="Education-Title">EDUCATION</h2>
         </div>
-
         <div data-aos="zoom-in" className="Diplomas-Container">
-          <div className="Diploma-Card">
-            <h4 className="Diploma-Title">WEB DEVELOPMENT CERTIFICATE</h4>
-            <h6 className="Diploma-Subtitle">Digital Career Institute gGmbH (DCI), Germany</h6>
-            <p className="Diploma-Year">2020 - 2021</p>
-          </div>
-
-          <div className="Diploma-Card">
-            <h4 className="Diploma-Title">BA IN AUDIOVISUAL PRODUCTION</h4>
-            <h6 className="Diploma-Subtitle">Federated University of Costa Rica</h6>
-            <p className="Diploma-Year">2012 - 2013</p>
-          </div>
-
-          <div className="Diploma-Card">
-            <h4 className="Diploma-Title">DIPLOMA IN MOTION GRAPHICS</h4>
-            <h6 className="Education-Subtitle">Creative University of Costa Rica</h6>
-            <p className="Diploma-Year">2007</p>
-          </div>
-
-          <div className="Diploma-Card">
-            <h4 className="Diploma-Title">BA IN JOURNALISM</h4>
-            <h6 className="Diploma-Subtitle">Latina University of Costa Rica</h6>
-            <p className="Diploma-Year">2002 - 2005</p>
-          </div>
+          <EducationCard data={educationData} />
         </div>
-
       </div>
 
       <div className="Education-Container">

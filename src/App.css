@@ -14,7 +14,7 @@ body {
   background-color: var(--color-primary-blue);
 }
 
-#root {
+.App {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -64,7 +64,7 @@ body {
   box-shadow: 5px 4px 3px 0px rgba(0, 0, 0, 0.75);
 }
 
-/* Header */
+/* Header and Navigation */
 .Header {
   width: 100%;
 }
@@ -76,38 +76,13 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-black);
-  color: white;
+  color: var(--color-light);
 }
 
 .Brand-Title a {
-  color: white;
+  color: var(--color-light);
   font-size: 1.5rem;
   text-decoration: none;
-}
-
-.Navbar-Links {
-  height: 100%;
-}
-
-.Navbar-Links ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.Navbar-Links li {
-  list-style: none;
-}
-
-.Navbar-Links li a {
-  padding: 0 1rem;
-  display: block;
-  text-decoration: none;
-  color: white;
-}
-
-.Navbar-Links li:hover {
-  background-color: var(--color-primary-blue);
 }
 
 .Toggle-Button {
@@ -124,8 +99,31 @@ body {
 .Toggle-Button .Bar {
   height: 3px;
   width: 100%;
-  background-color: white;
+  background-color: var(--color-light);
   border-radius: 10px;
+}
+
+.Navbar-Links {
+  height: 100%;
+}
+
+.Navbar-Links ul {
+  display: flex;
+}
+
+.Navbar-Links li {
+  list-style: none;
+}
+
+.Navbar-Links li a {
+  padding: 0 1rem;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.Navbar-Links li:hover {
+  background-color: var(--color-primary-blue);
 }
 
 /* Main */
@@ -606,11 +604,11 @@ textarea:focus {
 }
 
 .Icon {
-  color: white;
+  color: var(--color-light);
 }
 
 .Icon:hover {
-  color: black;
+  color: var(--color-black);
 }
 
 /* Media Queries */

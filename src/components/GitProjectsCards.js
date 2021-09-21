@@ -17,7 +17,6 @@ const GitProjects = ({ data }) => {
           </div>
         </div>
       ))}
-
     </>
   );
 }

@@ -12,6 +12,7 @@ import Contact from './pages/Contact';
 
 const App = () => {
   return (
+    <div className="App">
       <Layout>
         <Switch>
           <Route path='/' component={About} exact />
@@ -22,6 +23,8 @@ const App = () => {
           <Redirect path='/portfolio' />
         </Switch>
       </Layout>
+    </div>
+
   )
 }
 

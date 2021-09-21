@@ -52,3 +52,26 @@ export const independentData = [
     website: "https://www.carloslizama.com",
   },
 ];
+
+export const educationData = [
+  {
+    title: "WEB DEVELOPMENT CERTIFICATE",
+    university: "Digital Career Institute gGmbH (DCI), Germany",
+    year: "2020 - 2021"
+  },
+  {
+    title: "BA IN AUDIOVISUAL PRODUCTION",
+    university: "Federated University of Costa Rica",
+    year: "2012 - 2013"
+  },
+  {
+    title: "DIPLOMA IN MOTION GRAPHICS",
+    university: "Creative University of Costa Rica",
+    year: "2007"
+  },
+  {
+    title: "BA IN JOURNALISM",
+    university: "Latina University of Costa Rica",
+    year: "2002 - 2005"
+  },
+];
