@@ -32,7 +32,7 @@ export const gitData = [
     title: "Benny's Burger",
     image: burger,
     languages: "Bootstrap",
-    description: "Individual exercise using only Bootstrap Theming to create website.",
+    description: "Individual exercise using only Bootstrap Theming to create a website.",
     demo: "https://mlizama11.github.io/bennys-burgers/src/index.html",
     code: "https://github.com/mlizama11/bennys-burgers",
   },

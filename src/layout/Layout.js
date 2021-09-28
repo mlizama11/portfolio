@@ -1,4 +1,4 @@
-// components
+// Layout 
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 
@@ -16,4 +16,4 @@ const Layout = ({ children }) => {
   )
 }
 
-export default Layout
+export default Layout;
