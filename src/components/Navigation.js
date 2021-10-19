@@ -12,7 +12,7 @@ const Navigation = () => {
         <span className="Bar"></span>
         <span className="Bar"></span>
       </div>
-      <div className={`Navbar-Links ${state ? 'active' : ''}`}>
+      <div className={`Navbar-Links ${toggle ? 'active' : ''}`}>
         <ul>
           <li><NavLink onClick={() => setToggle(!toggle)} exact={true} to="/about">About</NavLink></li>
           <li><NavLink onClick={() => setToggle(!toggle)} exact={true} to="/education">Education</NavLink></li>
