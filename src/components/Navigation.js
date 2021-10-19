@@ -14,10 +14,10 @@ const Navigation = () => {
       </div>
       <div className={`Navbar-Links ${state ? 'active' : ''}`}>
         <ul>
-          <li><NavLink onClick={() => setToggle(!state)} exact={true} to="/about">About</NavLink></li>
-          <li><NavLink onClick={() => setToggle(!state)} exact={true} to="/education">Education</NavLink></li>
-          <li><NavLink onClick={() => setToggle(!state)} exact={true} to="/projects">Projects</NavLink></li>
-          <li><NavLink onClick={() => setToggle(!state)} exact={true} to="/contact">Contact</NavLink></li>
+          <li><NavLink onClick={() => setToggle(!toggle)} exact={true} to="/about">About</NavLink></li>
+          <li><NavLink onClick={() => setToggle(!toggle)} exact={true} to="/education">Education</NavLink></li>
+          <li><NavLink onClick={() => setToggle(!toggle)} exact={true} to="/projects">Projects</NavLink></li>
+          <li><NavLink onClick={() => setToggle(!toggle)} exact={true} to="/contact">Contact</NavLink></li>
         </ul>
       </div>
     </nav>
